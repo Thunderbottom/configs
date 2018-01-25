@@ -1,0 +1,14 @@
+#!/bin/sh
+
+script=/etc/hprofile/profiles/power/start
+$script "powersave" "auto" "auto" "min_power" "1" "0" "1500" "powersave"
+
+hprofile disk.bat
+
+if [ -n "$DISPLAY" ]; then
+    p
+    xbacklight -set 20
+    xset dpms 300 400 600
+fi
+
+# vim:fenc=utf-8:ci:pi:sts=0:sw=4:ts=4:
