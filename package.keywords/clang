@@ -1,0 +1,6 @@
+sys-libs/libomp ~amd64
+sys-devel/llvm ~amd64
+sys-devel/clang-runtime ~amd64
+sys-libs/compiler-rt ~amd64
+sys-libs/compiler-rt-sanitizers ~amd64
+sys-devel/clang ~amd64

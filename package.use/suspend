@@ -1,0 +1,3 @@
+dev-libs/lzo static-libs
+dev-libs/libgcrypt static-libs
+dev-libs/libgpg-error static-libs
